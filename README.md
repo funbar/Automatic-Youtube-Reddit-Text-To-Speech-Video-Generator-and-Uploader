@@ -159,4 +159,6 @@ Be default on start up of the YouTube Bot Server, it will request scripts, then 
 
 Receive credentials for your google API account will be downloaded and saved automatically following a one time login (your browser window will be opened requesting a google account login): videouploader.py -> get_credentials()
 
+### Troubleshooting
 
+- If you have an active instance of MySQL, you will need to kill it by killing the process that is running the Python3 application. YOu can use ```ps -aux```
